@@ -28,4 +28,18 @@ Reads a line of text that the user types and returns it as a string. It waits fo
 string input = Console.ReadLine();
 Console.WriteLine(input);
 
-//  //
+// int //
+
+int age = 25;
+
+// bool //
+
+bool isActive = true;
+
+// double //
+
+double price = 9.99;
+
+// string //
+
+string name = "Dave"
