@@ -1,10 +1,14 @@
 # Terminology
 
-String = A string is a type of data that holds text - any sequence of characters like letters, numbers, or symbols surrounded by double quotes.
+Variable = Variables are containers that store data values. You declare a variable by specifying its type and giving it a name.
 
-Variable = A variable is a named container that stores a value.
+int = Integer - it is a data type that is a whole number. For example: 42
 
-Boolean = A true or false answer.
+double = Decimal numbers - it is a data type that is a decimal number. For example: 3.14
+
+bool = Boolean - it is a data type that is a True or False. For example: true
+
+string = String - it is a data type that is Text/Characters. For example: "Hello"
 
 Class = A container that groups related code together.
 
