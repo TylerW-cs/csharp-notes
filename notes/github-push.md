@@ -25,3 +25,7 @@ If you wanted multiple lines of messsages you can either add more -m "Text here"
 
 git push
 Uploads your new commit(s) from your Mac up to GitHub, syncing the remote copy with your local one. This is the step that actually makes the change visible on github.com.
+
+git restore --staged .
+This un-stages everything (moves it back to exactly the state before staging). Nothing gets deleted or lost - it only affects what's staged for the next commit.
+The . can be replaced with specific file if needed.
