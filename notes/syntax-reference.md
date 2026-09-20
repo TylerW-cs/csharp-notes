@@ -43,3 +43,18 @@ double price = 9.99;
 // string //
 
 string name = "Dave"
+
+// dot notation //
+When constants (or any static members) are defined in a separate class, you access them using the class name followed by a dot and the member name. This is called dot notation.
+
+// In MathConstants class:
+public static class MathConstants
+{
+    public const double Pi = 3.14159;
+    public const int DaysInWeek = 7;
+}
+
+// To use these constants from another class:
+double circleConstant = MathConstants.Pi;     // Returns 3.14159
+int days = MathConstants.DaysInWeek;          // Returns 7
+
