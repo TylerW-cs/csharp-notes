@@ -29,3 +29,6 @@ Uploads your new commit(s) from your Mac up to GitHub, syncing the remote copy w
 git restore --staged .
 This un-stages everything (moves it back to exactly the state before staging). Nothing gets deleted or lost - it only affects what's staged for the next commit.
 The . can be replaced with specific file if needed.
+
+git rm [file]
+Deletes the file from your Mac and stages that deletion at the same time, so you don't need a separate git add step — just commit and push straight after.
