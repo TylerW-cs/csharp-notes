@@ -26,3 +26,5 @@ Const = Constant is a value that cannot change after it's defined. Use the const
 
 PascalCase = Naming convention - ItShouldLookLikeThis
 
+Static members = When constants (or any static members) are defined in a separate class, you access them using the class name followed by a dot and the member name. This is called dot notation.
+
