@@ -28,3 +28,4 @@ PascalCase = Naming convention - ItShouldLookLikeThis
 
 Static members = When constants (or any static members) are defined in a separate class, you access them using the class name followed by a dot and the member name. This is called dot notation.
 
+var = The var keyword lets the compiler figure out the type of a variable from the value you assign to it. The variable is still strongly typed, but you don't have to write the type name yourself.

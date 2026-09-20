@@ -45,7 +45,8 @@ double price = 9.99;
 string name = "Dave"
 
 // dot notation //
-When constants (or any static members) are defined in a separate class, you access them using the class name followed by a dot and the member name. This is called dot notation.
+When constants (or any static members) are defined in a separate class, you access them using the class name followed by a dot and the member name. This is called dot notation. 
+ClassName.MemberName syntax.
 
 // In MathConstants class:
 public static class MathConstants
