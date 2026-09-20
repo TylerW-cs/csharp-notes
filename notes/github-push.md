@@ -21,6 +21,7 @@ Stages your changes - tells git "include everything I've edited in this folder i
 
 git commit -m "Describe what you changed"
 Takes whatever's staged and saves it as a permanent snapshto in your local project history, with a message explaining what changed. This is only saved on your Mac at this point - GitHub doesn't know about it yet. -m stands for message - it lets you attaach your commit message directly on the command line, right after the flag, in qoutes.
+If you wanted multiple lines of messsages you can either add more -m "Text here" or simply not include -m and it will open a text editor where you can type your message.
 
 git push
 Uploads your new commit(s) from your Mac up to GitHub, syncing the remote copy with your local one. This is the step that actually makes the change visible on github.com.
