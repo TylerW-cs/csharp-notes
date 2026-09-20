@@ -22,4 +22,10 @@ Console.Write("World");
 
 Hello World
 
-//
+// Console.ReadLine() //
+Reads a line of text that the user types and returns it as a string. It waits for the user to press Enter, then gives you everything they typed.
+
+string input = Console.ReadLine();
+Console.WriteLine(input);
+
+//  //
