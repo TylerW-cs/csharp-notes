@@ -95,4 +95,32 @@ string verbatim = @"D:\Projects\Notes\todo.md";
 
 D:\Projects\Notes\todo.md
 
-//
+// \n //
+Escape sequences are special character combinations that represent characters which cannot be typed directly in a string, like newlines, tabs, or quote marks. This is for a new line.
+
+Console.WriteLine("Line 1\nLine 2");
+
+Line 1
+Line 2
+
+// \t //
+Escape sequences are special character combinations that represent characters which cannot be typed directly in a string, like newlines, tabs, or quote marks. This is for a tab/indent.
+
+Console.WriteLine("Name:\tJohn");
+
+    John
+
+// \\ //
+Escape sequences are special character combinations that represent characters which cannot be typed directly in a string, like newlines, tabs, or quote marks. This is for a backslash.
+
+Console.WriteLine("C:\\Program Files\\App");
+
+C:\Program Files\App
+
+// \" //
+Escape sequences are special character combinations that represent characters which cannot be typed directly in a string, like newlines, tabs, or quote marks. This is for a double quote.
+
+Console.WriteLine("She said \"Hello!\"");
+
+She said "Hello!"
+
