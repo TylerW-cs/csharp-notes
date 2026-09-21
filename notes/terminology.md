@@ -4,7 +4,9 @@ Variable = Variables are containers that store data values. You declare a variab
 
 int = Integer - it is a data type that is a whole number. For example: 42
 
-double = Decimal numbers - it is a data type that is a decimal number. For example: 3.14
+double = Decimal numbers - it is a data type that is a decimal number. Doubles don't avoid floating-point rounding errors. For example: 3.14
+
+decimal = Precise decimal number - perfect for financial calculations where accuracy matters. Decimals avoid floating-point rounding errors.
 
 bool = Boolean - it is a data type that is a True or False. For example: true
 
