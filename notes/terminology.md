@@ -35,3 +35,5 @@ var = The var keyword lets the compiler figure out the type of a variable from t
 Verbatim string = A verbatim string literal starts with @ before the opening quote. It tells C# to treat the string exactly as written, ignoring escape sequences like \n or \t. This is especially handy for Windows file paths, where every backslash would otherwise need to be doubled.
 
 String Interpolation = String interpolation lets you embed variables and expressions directly inside strings using the $ prefix and curly braces {}.
+
+char = Character - A char represents a single Unicode character. While strings hold multiple characters, a char holds exactly one. Use char when working with individual characters from strings or keyboard input.

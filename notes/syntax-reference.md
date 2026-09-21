@@ -131,3 +131,45 @@ string message2 = $"Hello, {name}! Your score is {score}.";
 
 Hello, Tyler! Your score is 99.
 
+// char //
+A char represents a single Unicode character. While strings hold multiple characters, a char holds exactly one. Use char when working with individual characters from strings or keyboard input.
+
+char letter = 'A';
+
+A
+
+// char.IsLetter() //
+
+char.IsLetter('A');
+
+True
+
+// char.IsDigit() //
+
+char.IsDigit('5');
+
+True
+
+// char.IsUpper() //
+
+chat.IsUpper('a');
+
+False
+
+// char.IsLower() //
+
+char.IsLower('a');
+
+True
+
+// char.ToUpper() //
+
+char.ToUpper('a');
+
+A
+
+// char.ToLower() //
+
+char.ToLower('A');
+
+a
