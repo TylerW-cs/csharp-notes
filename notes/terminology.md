@@ -31,3 +31,6 @@ PascalCase = Naming convention - ItShouldLookLikeThis
 Static members = When constants (or any static members) are defined in a separate class, you access them using the class name followed by a dot and the member name. This is called dot notation.
 
 var = The var keyword lets the compiler figure out the type of a variable from the value you assign to it. The variable is still strongly typed, but you don't have to write the type name yourself.
+
+Verbatim string = A verbatim string literal starts with @ before the opening quote. It tells C# to treat the string exactly as written, ignoring escape sequences like \n or \t. This is especially handy for Windows file paths, where every backslash would otherwise need to be doubled.
+
