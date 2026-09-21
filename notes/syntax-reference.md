@@ -87,3 +87,12 @@ decimal.Multiply(10.00m, 2m)
 decimal.Divide(10.00m, 4m)
 
 2.50
+
+// verbatim strings //
+A verbatim string literal starts with @ before the opening quote. It tells C# to treat the string exactly as written, ignoring escape sequences like \n or \t. This is especially handy for Windows file paths, where every backslash would otherwise need to be doubled.
+
+string verbatim = @"D:\Projects\Notes\todo.md";
+
+D:\Projects\Notes\todo.md
+
+//
