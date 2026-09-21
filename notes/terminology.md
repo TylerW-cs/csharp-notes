@@ -8,7 +8,7 @@ double = Decimal numbers - it is a data type that is a decimal number. Doubles d
 
 decimal = Precise decimal number - perfect for financial calculations where accuracy matters. Decimals avoid floating-point rounding errors.
 
-bool = Boolean - it is a data type that is a True or False. For example: true
+bool = A bool (short for Boolean) represents a logical value that can only be true or false. Booleans are essential for making decisions in your code.
 
 string = String - it is a data type that is Text/Characters. For example: "Hello"
 

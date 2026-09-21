@@ -173,3 +173,18 @@ A
 char.ToLower('A');
 
 a
+
+// && //
+AND - Both must be true.
+
+// || //
+OR - At least one must be true.
+
+// ! //
+NOT - Inverts the value.
+
+!true
+
+false
+
+//
