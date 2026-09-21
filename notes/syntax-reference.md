@@ -64,3 +64,26 @@ The decimal type is a 128-bit precise decimal number, perfect for financial calc
 
 decimal price = 19.99m;
 
+// decimal.Add() //
+
+decimal.Add(10.50m, 3.25m)
+
+13.75
+
+// decimal.Subtract() //
+
+decimal.Subtract(10.50m, 3.25m)
+
+7.25
+
+// decimal.Multiply() //
+
+decimal.Multiply(10.00m, 2m)
+
+20.00
+
+// decimal.Divide() //
+
+decimal.Divide(10.00m, 4m)
+
+2.50
