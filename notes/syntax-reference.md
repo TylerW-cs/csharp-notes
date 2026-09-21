@@ -124,3 +124,10 @@ Console.WriteLine("She said \"Hello!\"");
 
 She said "Hello!"
 
+// String Interpolation //
+String interpolation lets you embed variables and expressions directly inside strings using the $ prefix and curly braces {}.
+
+string message2 = $"Hello, {name}! Your score is {score}.";
+
+Hello, Tyler! Your score is 99.
+
