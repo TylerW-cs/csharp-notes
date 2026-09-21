@@ -59,3 +59,8 @@ public static class MathConstants
 double circleConstant = MathConstants.Pi;     // Returns 3.14159
 int days = MathConstants.DaysInWeek;          // Returns 7
 
+// decimal //
+The decimal type is a 128-bit precise decimal number, perfect for financial calculations where accuracy matters. Unlike double, decimals avoid floating-point rounding errors. The "m" suffix distinguishes it from a double.
+
+decimal price = 19.99m;
+
