@@ -187,4 +187,11 @@ NOT - Inverts the value.
 
 false
 
-//
+// float //
+A float is a 32-bit floating-point number used for storing decimal values when you need to save memory and don't require high precision.
+
+loat temperature = 98.6f;
+
+Without 'f', the compiler treats it as a double (error!).
+
+// 

@@ -6,6 +6,8 @@ int = Integer - it is a data type that is a whole number. For example: 42
 
 double = Decimal numbers - it is a data type that is a decimal number. Doubles don't avoid floating-point rounding errors. For example: 3.14
 
+float = A float is a 32-bit floating-point number used for storing decimal values when you need to save memory and don't require high precision.
+
 decimal = Precise decimal number - perfect for financial calculations where accuracy matters. Decimals avoid floating-point rounding errors.
 
 bool = A bool (short for Boolean) represents a logical value that can only be true or false. Booleans are essential for making decisions in your code.
