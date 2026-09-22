@@ -50,3 +50,8 @@ char = Character - A char represents a single Unicode character. While strings h
 
 % = The modulo operator (%) returns the remainder after integer division. It's essential for tasks like checking even/odd numbers, cycling through values, and wrapping indices.
 
+Order of Operation =
+1. ( )      - Parentheses
+2. * / %    - Multiplcation, Division, Modulo
+3. + -      - Addition, Subtraction
+

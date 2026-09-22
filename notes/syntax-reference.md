@@ -229,4 +229,16 @@ int remainder = 17 % 5;
 
 2
 
-//
+// Arithmetic Compound Operators //
+
+int x = 20;
+
+x += 5;
+x -= 3;
+x *= 2;
+x /= 4;
+
+25
+22
+44
+11
