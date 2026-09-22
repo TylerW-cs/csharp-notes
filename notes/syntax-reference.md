@@ -242,3 +242,60 @@ x /= 4;
 22
 44
 11
+
+// Incremental and Decremental Operators //
+
+| Prefix |
+
+int x = 5;
+int result = x++;  -> result = 5, x = 6 (returns original, then changes)
+
+int y = 10;
+int result2 = y--; -> result2 = 10, y = 9 (returns original, then changes)
+
+| Postfix |
+
+int x = 5;
+int result = ++x;  -> result = 6, x = 6 (changes first, then returns)
+
+int y = 10;
+int result2 = --y; -> result2 = 9, y = 9 (changes first, then returns)
+
+// Comparison Operators //
+
+| == |
+Equal to.
+
+5 == 5 -> true
+
+| != |
+Not equal to.
+
+5 != 3 -> true
+
+| > |
+Greater than.
+
+7 > 5 -> true
+
+| < |
+Less than.
+
+3 < 5 -> true
+
+| >= |
+Greater or equal.
+
+5 >= 5 -> true
+
+| <= |
+Less or equal.
+
+5 <= 5 -> true
+
+// Logical AND operator //
+
+bool result1 = true && true;   -> True - both are true
+bool result2 = true && false;  -> False - second is false
+bool result3 = false && true;  -> False - first is false
+bool result4 = false && false; -> False - both are false
