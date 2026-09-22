@@ -55,3 +55,8 @@ Order of Operation =
 2. * / %    - Multiplcation, Division, Modulo
 3. + -      - Addition, Subtraction
 
+++ = The ++ (increment) operator adds 1 from a variable. They come in two forms: prefix and postfix, which behave differently when used in expressions.
+
+-- = The -- (decrement) operator subtracts 1 from a variable. They come in two forms: prefix and postfix, which behave differently when used in expressions.
+
+&& = The logical AND operator (&&) combines two boolean conditions and returns true only when both conditions are true.
