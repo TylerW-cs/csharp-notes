@@ -299,3 +299,66 @@ bool result1 = true && true;   -> True - both are true
 bool result2 = true && false;  -> False - second is false
 bool result3 = false && true;  -> False - first is false
 bool result4 = false && false; -> False - both are false
+
+// Logical OR operator //
+
+bool result1 = true || false;   -> true (first is true)
+bool result2 = false || true;   -> true (second is true)
+bool result3 = false || false;  -> false (neither is true)
+bool result4 = true || true;    -> true (both are true)
+
+// Logical NOT operator //
+
+bool hasErrors = true;
+bool succeeded = !hasErrors;   -> succeeded is false
+-> hasErrors is still true - it was not modified
+
+!booleanValue          // negates a single value
+!(expression)          // negates the whole expression inside the parentheses
+
+| Logical Operator Useful Reference |
+
+!a -> Not a -> false
+!a && !b -> neither a nor b -> false
+!a || !b -> not both a and b -> true
+!(a && b) -> not (a and b) -> true
+
+// if Statement //
+
+if (condition)
+{
+    -> Code runs only when condition is true
+}
+
+//
+
+// if-else Statement //
+
+if (condition)
+{
+    -> Runs when condition is true
+}
+else
+{
+    -> Runs when condition is false
+}
+
+// else-if Statement //
+
+if (condition1)
+{
+    -> Runs if condition1 is true
+}
+else if (condition2)
+{
+    -> Runs if condition1 is false AND condition2 is true
+}
+else if (condition3)
+{
+    -> Runs if both above are false AND condition3 is true
+}
+else
+{
+    -> Runs if ALL conditions above are false
+}
+

@@ -60,3 +60,14 @@ Order of Operation =
 -- = The -- (decrement) operator subtracts 1 from a variable. They come in two forms: prefix and postfix, which behave differently when used in expressions.
 
 && = The logical AND operator (&&) combines two boolean conditions and returns true only when both conditions are true.
+
+|| = The logical OR operator (||) returns true if at least one of its operands is true. It's used when you need to check if any condition among several is satisfied.
+
+! = The logical NOT operator (!) flips a boolean value: true becomes false, and false becomes true. It is one of the most common ways to express "the opposite of this condition" in C#, and it lets you turn a flag that describes a problem into a flag that describes a state you want.
+
+if = An if statement lets you execute code only when a condition is true. It's the foundation of decision-making in programming.
+
+else = The if-else statement extends if by providing an alternative block of code when the condition is false.
+
+else if = When you need to check multiple conditions in sequence, use an else-if chain. Only one block executes—the first condition that evaluates to true. Conditions are checked from top to bottom. The first true condition wins.
+
