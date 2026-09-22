@@ -39,3 +39,14 @@ Verbatim string = A verbatim string literal starts with @ before the opening quo
 String Interpolation = String interpolation lets you embed variables and expressions directly inside strings using the $ prefix and curly braces {}.
 
 char = Character - A char represents a single Unicode character. While strings hold multiple characters, a char holds exactly one. Use char when working with individual characters from strings or keyboard input.
+
++ = The + operator adds two values together. It's one of the most fundamental arithmetic operators in C#.
+
+- = The subtraction operator (-) calculates the difference between two numbers. It subtracts the right operand from the left operand.
+
+* = The multiplication operator * multiplies two numbers together. It's used whenever you need to calculate products, areas, or scale values.
+
+/ = The division operator / divides one number by another. Unlike integer division, using double preserves decimal precision.
+
+% = The modulo operator (%) returns the remainder after integer division. It's essential for tasks like checking even/odd numbers, cycling through values, and wrapping indices.
+

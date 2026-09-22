@@ -194,4 +194,39 @@ float temperature = 98.6f;
 
 Without 'f', the compiler treats it as a double (error!).
 
-// 
+// + //
+The + operator adds two values together. It's one of the most fundamental arithmetic operators in C#.
+
+int sum = 5 + 3;
+
+8
+
+// - //
+The subtraction operator (-) calculates the difference between two numbers. It subtracts the right operand from the left operand.
+
+int sum = 5 - 3;
+
+2
+
+// * //
+The multiplication operator * multiplies two numbers together. It's used whenever you need to calculate products, areas, or scale values.
+
+int sum = 5 * 3;
+
+15
+
+// / //
+The division operator / divides one number by another. Unlike integer division, using double preserves decimal precision.
+
+int sum = 10 / 2;
+
+5
+
+// % //
+The modulo operator (%) returns the remainder after integer division. It's essential for tasks like checking even/odd numbers, cycling through values, and wrapping indices.
+
+int remainder = 17 % 5;
+
+2
+
+//
