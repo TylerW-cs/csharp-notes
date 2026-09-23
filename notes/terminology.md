@@ -93,3 +93,39 @@ Ternary Operator = The ternary operator (?:) is a compact way to write simple if
 | Single expression       | Multiple lines         |
 | Best for simple choices | Best for complex logic |
 
+While loops = A while loop repeatedly executes a block of code as long as a condition remains true. Use it when you don't know exactly how many times you need to iterate.
+
+THE TERMINATION RULE
+
+| LOOP TYPE     | WHAT MUST CHANGE           | EXAMPLE                    |
+---------------------------------------------------------------------------
+| Counting up   | Increment the counter      | counter++                  |
+| Counting down | Decrement the counter      | counter--                  |
+| Searching     | Update the search position | index++                    |
+| Input-based   | Read new input             | input = Console.ReadLine() |
+
+Do-While loops = A do-while loop executes its body at least once before checking the condition. This is perfect for scenarios where you need to do something first, then decide whether to continue.
+
+COMMON USE CASES
+
+| USE CASE     | WHY DO-WHILE?                        |
+-------------------------------------------------------
+| Menu systems | Must show menu at least once         |
+| Retry logic  | Must attempt operation at least once |
+| Game loops   | Must run at least one frame          |
+| Processing   | Must process at least one item       |
+
+For loops = A for loop is used when you know exactly how many times you want to iterate. It combines initialization, condition, and iteration into a single line.
+
+FOR LOOP VS WHILE LOOP
+
+| FOR LOOP                                             | WHILE LOOP                                 |
+-----------------------------------------------------------------------------------------------------
+| Best when iteration count is known                   | Best when iteration count is unknown       |
+| Initialization, condition, and iterator in one place | These are separate                         |
+| for (int i = 1; i < 5; i++;)                         | int 1 = 0;                                 |
+                                                       | while (i < 5)                              |
+                                                       | {                                          |
+                                                       |  i++;                                      |
+                                                       |  }                                         |
+

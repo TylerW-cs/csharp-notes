@@ -484,3 +484,51 @@ else
     SendNotification();
 }
 
+return age >= 18 ? "Adult" : "Minor";
+
+// While loops //
+
+int counter = 1;        -> 1. Initialize a counter variable
+while (counter <= 3)    -> 2. Condition checked before each iteration
+{
+    Console.WriteLine(counter);  -> 3. Loop body
+    counter++;                   -> 4. Update counter (crucial!)
+}
+-> Output: 1, 2, 3 (each on new line)
+
+// Do-While loops //
+
+-> While loop - might never execute
+int x = 10;
+while (x < 5)
+{
+    Console.WriteLine("This never prints");
+}
+
+-> Do-while loop - always executes at least once
+int y = 10;
+do
+{
+    Console.WriteLine("This prints once!");
+} while (y < 5);
+
+// For loops //
+
+-> Print 0 to 4
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
+
+-> Print 5 to 1 (counting down)
+for (int i = 5; i >= 1; i--)
+{
+    Console.WriteLine(i);
+}
+
+-> Print even numbers 2 to 10
+for (int i = 2; i <= 10; i += 2)
+{
+    Console.WriteLine(i);
+}
+
