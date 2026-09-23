@@ -71,3 +71,9 @@ else = The if-else statement extends if by providing an alternative block of cod
 
 else if = When you need to check multiple conditions in sequence, use an else-if chain. Only one block executes—the first condition that evaluates to true. Conditions are checked from top to bottom. The first true condition wins.
 
+Logical Patterns with 'is', 'and', 'or', 'not' = C# pattern matching allows you to combine conditions using pattern combinators. These make your code more readable when comparing against compile-time constants.
+
+Switch statements = A switch statement compares a single value against a list of constant options and runs the matching branch. It is the idiomatic choice when one variable can take many known values (a menu choice, a status code, a month number), because it reads more clearly than a long chain of else if comparisons.
+
+Switch Expressions = Switch expressions are a concise, expression-based alternative to switch statements. They return a value directly and use the => arrow syntax.
+

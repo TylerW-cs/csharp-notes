@@ -362,3 +362,93 @@ else
     -> Runs if ALL conditions above are false
 }
 
+// Logical Patterns //
+C# pattern matching allows you to combine conditions using pattern combinators. These make your code more readable when comparing against compile-time constants.
+
+if (number is 1 or 0)
+        {
+            return "edge";
+        }
+        else if (number is >= 2 and <=9)
+        {
+            return "small positive";
+        }
+        else if (number is not > 0)
+        {
+            return "non-positive";
+        }
+        else if (number is >= 10 and <= 100)
+        {
+            return "medium";
+        }
+        else
+        {
+            return "large";
+        }
+
+// Switch Statement //
+A switch statement compares a single value against a list of constant options and runs the matching branch. It is the idiomatic choice when one variable can take many known values (a menu choice, a status code, a month number), because it reads more clearly than a long chain of else if comparisons.
+
+The value in the parentheses is evaluated once, then compared top-to-bottom against each case label. When a label matches, the statements under it run until the branch is ended by break (leave the switch) or return (leave the whole method). If nothing matches, the default branch runs — and if there is no default, the switch simply does nothing.
+
+switch (dayNumber)
+        {
+            case 1:
+                return "Monday";
+                break;
+            case 2:
+                return "Tuesday";
+                break;
+            case 3:
+                return "Wednesday";
+                break;
+            case 4:
+                return "Thursday";
+                break;
+            case 5:
+                return "Friday";
+                break;
+            case 6:
+                return "Saturday";
+                break;
+            case 7:
+                return "Sunday";
+                break;
+            default:
+                return "Invalid day";
+                break;
+
+        }
+
+// Switch Expressions //
+Switch expressions are a concise, expression-based alternative to switch statements. They return a value directly and use the => arrow syntax.
+
+var result = value switch
+{
+    pattern1 => result1,
+    pattern2 => result2,
+    _ => defaultResult  // discard pattern (default)
+};
+
+-> Traditional switch statement (verbose)
+string GetGrade(int score)
+{
+    switch (score)
+    {
+        case 10:
+            return "A+";
+        case 9:
+            return "A";
+        default:
+            return "B";
+    }
+}
+
+-> Switch expression (concise)
+string GetGrade(int score) => score switch
+{
+    10 => "A+",
+    9 => "A",
+    _ => "B"
+};
+
