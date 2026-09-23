@@ -445,10 +445,42 @@ string GetGrade(int score)
 }
 
 -> Switch expression (concise)
-string GetGrade(int score) => score switch
+return score switch
 {
     10 => "A+",
     9 => "A",
     _ => "B"
 };
+
+// Ternary Operator //
+
+-> Instead of this:
+string result;
+if (score >= 50)
+    result = "Pass";
+else
+    result = "Fail";
+
+-> Write this:
+string result = score >= 50 ? "Pass" : "Fail";
+
+-> More examples:
+int max = a > b ? a : b;
+bool isEven = number % 2 == 0 ? true : false;
+string greeting = hour < 12 ? "Good morning" : "Good afternoon";
+
+-> Ternary - concise for simple assignments
+string status = isActive ? "Online" : "Offline";
+
+-> If-Else - better for multiple operations
+if (isActive)
+{
+    status = "Online";
+    LogActivity();
+}
+else
+{
+    status = "Offline";
+    SendNotification();
+}
 

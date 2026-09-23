@@ -77,3 +77,19 @@ Switch statements = A switch statement compares a single value against a list of
 
 Switch Expressions = Switch expressions are a concise, expression-based alternative to switch statements. They return a value directly and use the => arrow syntax.
 
+| FEATURE         | SWITCH STATEMENT                                      | SWITCH EXPRESSION                                                                           |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Returns Value   | Via Return                                            | Directly                                                                                    |
+| Uses Cases:     | Yes                                                   | No, uses =>                                                                                 |
+| Uses break      | Yes                                                   | No                                                                                          |
+| Default         | default:                                              | _ (discard)                                                                                 |
+| Unmatched Value | Nothing happens, execution continues after the switch | Compiler warning (CS8509) and a SwitchExpressionException at runtime. Add _ arm to cover it |
+
+Ternary Operator = The ternary operator (?:) is a compact way to write simple if-else statements in a single expression. Use it when you need to choose between two values based on a condition. condition ? valueIfTrue : valueIfFalse
+
+| TERNARY                 | IF-ELSE                |
+----------------------------------------------------
+| Returns a value         | Executes statements    |
+| Single expression       | Multiple lines         |
+| Best for simple choices | Best for complex logic |
+
