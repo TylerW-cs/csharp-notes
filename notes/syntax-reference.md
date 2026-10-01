@@ -532,3 +532,59 @@ for (int i = 2; i <= 10; i += 2)
     Console.WriteLine(i);
 }
 
+// Array //
+
+-> Declare and initialize an array with values
+string[] fruits = { "Apple", "Banana", "Cherry" };
+
+-> Declare an array with a specific size (all elements start as default values)
+int[] numbers = new int[5]; // Creates array with 5 slots, all set to 0
+
+-> Declare and initialize with the new keyword
+string[] colors = new string[] { "Red", "Green", "Blue" };
+
+string[] fruits = { "Apple", "Banana", "Cherry" };
+Console.WriteLine(fruits[0]); -> Output: Apple
+Console.WriteLine(fruits[1]); -> Output: Banana
+Console.WriteLine(fruits[2]); -> Output: Cherry
+
+// Length //
+
+string[] fruits = { "Apple", "Banana", "Cherry" };
+Console.WriteLine(fruits.Length); -> Output: 3
+
+// Break //
+
+for (int i = 1; i <= 10; i++)
+{
+    if (i == 5)
+    {
+        break; -> Exits the loop when i equals 5
+    }
+    Console.WriteLine(i);
+}
+-> Prints: 1, 2, 3, 4 (stops before printing 5)
+
+int[] numbers = { 3, 8, 15, 22, 7 };
+foreach (int num in numbers)
+{
+    if (num > 10)
+    {
+        Console.WriteLine($"First number over 10: {num}");
+        break; -> Stop searching after finding the first match
+    }
+}
+-> Prints: First number over 10: 15
+
+// Continue //
+
+for (int i = 1; i <= 5; i++)
+{
+    if (i == 3)
+    {
+        continue; -> Skip when i is 3
+    }
+    Console.WriteLine(i);
+}
+-> Output: 1, 2, 4, 5 (3 is skipped)
+

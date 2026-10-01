@@ -129,3 +129,13 @@ FOR LOOP VS WHILE LOOP
                                                        |  i++;                                      |
                                                        |  }                                         |
 
+Array = An array is a collection that holds multiple values of the same type in a single variable. Instead of creating separate variables for each item (like fruit1, fruit2, fruit3), you store them all together in one container.
+
+Length = Use the Length property to get the number of elements:
+
+Break = The break statement immediately exits the current loop, stopping all further iterations. Use it when you've found what you're looking for and don't need to continue searching.
+
+Continue = The continue statement skips the rest of the current loop iteration and jumps to the next one. Unlike break which exits the loop entirely, continue just moves on to the next cycle.
+
+Nested Loops = A nested loop is a loop placed inside another loop. The inner loop completes all its iterations for each single iteration of the outer loop.
+
