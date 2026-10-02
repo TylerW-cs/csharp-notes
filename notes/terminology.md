@@ -139,3 +139,14 @@ Continue = The continue statement skips the rest of the current loop iteration a
 
 Nested Loops = A nested loop is a loop placed inside another loop. The inner loop completes all its iterations for each single iteration of the outer loop.
 
+COMMON USES
+
+| Pattern          | Description                           |
+------------------------------------------------------------
+| Grid/Table       | Process rows and columns              |
+| Matrix           | Access 2D data structures             |
+| Pattern printing | Create shapes with characters         |
+| Comparisons      | Compare each element with every other |
+
+Void Method = A void method is a method that performs an action but does not return a value. Use void as the return type when your method should execute code without sending data back to the caller.
+
