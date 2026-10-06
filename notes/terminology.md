@@ -150,3 +150,5 @@ COMMON USES
 
 Void Method = A void method is a method that performs an action but does not return a value. Use void as the return type when your method should execute code without sending data back to the caller.
 
+Method Parameter = Methods can accept multiple parameters, allowing you to pass data into them for processing. Parameters are defined in the parentheses after the method name, separated by commas.
+
