@@ -152,3 +152,12 @@ Void Method = A void method is a method that performs an action but does not ret
 
 Method Parameter = Methods can accept multiple parameters, allowing you to pass data into them for processing. Parameters are defined in the parentheses after the method name, separated by commas.
 
+BUILT-IN METHODS
+
+Math.Abs() = Finds the absolute value of a number (how far the number is away from 0). Example: Math.Abs(-5) returns 5.
+Math.Sqrt() = Finds the square root of a given double. Example: Math.Sqrt(16) returns 4. **can only process a positive number as a value. Otherwise, it will yield NaN.**
+Math.Floor() = Rounds the given double or decimal down to the nearest whole number. Example: Math.Floor(8.65) returns 8.
+Math.Ceiling() = The counterpart of Math.Floor(), rounds a given double or decimal up to the nearest whole number. Example: Math.Ceiling(8.65) returns 9.
+Math.Min() = Returns the smaller of two numbers of the same type. Example: Math.Min(39, 12) returns 12.
+Math.Max() = The counterpart of Math.Min(), returns the larger of two numbers of the same type. Example: Math.Max(39, 12) returns 39.
+
